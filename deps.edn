@@ -7,5 +7,5 @@
                                                       :git/sha "1fce9070ee851f49a6c4ce6e1c0bb0db4d7594a0"}
                                ;; data.json loads java.time.format, which jolt core leaves to this library
                                io.github.jolt-lang/time {:git/url "https://github.com/jolt-lang/time.git"
-                                                         :git/sha "33c5e9831c046cfcbe68bc0c9c33e92568eaebb1"}}
+                                                         :git/sha "5104b050e331ff4fadd7488c958bf121ca5c91d9"}}
                   :main-opts ["-e" "(require 'clojure.test 'yyjson.core-test) (let [r (clojure.test/run-tests 'yyjson.core-test)] (System/exit (if (zero? (+ (:fail r) (:error r))) 0 1)))"]}}}
